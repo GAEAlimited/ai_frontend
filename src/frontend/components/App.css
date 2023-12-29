@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif; /* Change to a modern font */
-  background-color: #f7f7f7; /* Light background color */
+  background-color: #666666; /* Light background color */
 }
 
 /* Navbar Styles */
@@ -17,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f7f7f7; /* Light background color */
+  background-color: #a6a6a6; /* Light background color */
   color: #333; /* Dark text color */
   padding: 10px 50px;
 }
@@ -26,7 +26,7 @@ nav {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase; /* Uppercase brand name */
-  color: #00294e; /* Dark blue text color matching hero section background */
+  color: #c9b876; /* Dark blue text color matching hero section background */
 }
 
 .nav-links {
@@ -47,7 +47,7 @@ nav {
 
 /* Hero Section Styles */
 .hero-section {
-  background: linear-gradient(135deg, #00294e, #001220); /* Higher-contrast dark-blue gradient background */
+  background: linear-gradient(135deg, #3d3d3d, #222222); /* Higher-contrast dark-blue gradient background */
   padding: 100px 0;
   text-align: center;
   color: #fff; /* Text color on dark background */
@@ -58,23 +58,23 @@ nav {
   width: 60%;
   max-width: 400px;
   border: 1px solid #ccc; /* Add a border */
-  border-radius: 4px; /* Rounded corners */
+  border-radius: 12px; /* Rounded corners */
   outline: none; /* Remove input outline */
 }
 
 .hero-section button {
   padding: 12px 24px;
   margin-left: 10px;
-  background-color: #007bff; /* Blue background color */
+  background-color: #aaaaaa; /* Blue background color */
   color: #fff; /* Button text color */
   border: none;
-  border-radius: 4px;
+  border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s; /* Smooth background color transition */
 }
 
 .hero-section button:hover {
-  background-color: #0056b3; /* Change button background color on hover */
+  background-color: #666666; /* Change button background color on hover */
 }
 
 /* Data Sections Styles */
