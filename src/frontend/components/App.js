@@ -46,11 +46,13 @@ const App = () => {
   return (
     <>
       <nav>
-        <div className="nav-brand">GSCxBT</div>
+        <div className="nav-brand"><img src="https://assets.codepen.io/6238486/gscx-logo.png?width=122&height=23&format=auto" alt="GSCxBT" /></div>
         <div className="nav-links">
-          <a href="#home">Explorer</a>
+          <a href="#home">Explore</a>
           <a href="#blockchain">Blockchains</a>
           <a href="#tokens">Tokens</a>
+          <a href="#dapps">Dapps</a>
+          <a href="#wallets">Wallets</a>
           <a href="#nfts">NFTs</a>
         </div>
       </nav>
