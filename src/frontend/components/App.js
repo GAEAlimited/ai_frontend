@@ -46,10 +46,10 @@ const App = () => {
   return (
     <>
       <nav>
-        <div className="nav-brand">DappScan</div>
+        <div className="nav-brand">GSCxBT</div>
         <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#blockchain">Blockchain</a>
+          <a href="#home">Explorer</a>
+          <a href="#blockchain">Blockchains</a>
           <a href="#tokens">Tokens</a>
           <a href="#nfts">NFTs</a>
         </div>
@@ -59,20 +59,20 @@ const App = () => {
           type="text" 
           value={searchQuery} 
           onChange={(e) => setSearchQuery(e.target.value)} 
-          placeholder="Search blocks or transactions..."
+          placeholder="Search blocks or transactions on GSC20"
         />
-        <button onClick={() => alert("Search functionality is not implemented")}>Search</button>
+        <button onClick={() => alert("Search functionality is not implemented")}>SearchGSCxBT</button>
       </div>
       <div className="app-container">
         <div className="data-sections">
           <section className="panel">
-            <h2>Latest Blocks</h2>
+            <h2>Latest GSC20 Blocks</h2>
             <ul>
               {latestBlocks.map((block) => (
                 <li key={block.number}>
                   <div className="block-info">
                     <div>
-                      <strong>Block:</strong> {block.number}<br />
+                      <strong>GSC20 Block:</strong> {block.number}<br />
                       <span>{Math.floor((Date.now() / 1000 - block.timestamp))}s ago</span>
                     </div>
                     <div>
@@ -87,7 +87,7 @@ const App = () => {
             </ul>
           </section>
           <section className="panel">
-            <h2>Latest Transactions</h2>
+            <h2>Latest GSC20 Transactions</h2>
             <ul>
               {latestTransactions.map((tx) => (
                 <li key={tx.hash}>
@@ -114,21 +114,21 @@ const App = () => {
         <div className="footer-section">
           <div className="footer-column">
             <div className="footer-header">
-              <span>Powered by Ethereum</span>
+              <span>Powered by LeadTechDeFi LTE7g</span>
             </div>
-            <p>DappScan is a Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform.</p>
+            <p>GSCxBT is a Block Explorer and Analytics Platform for Crypto-Currency, a decentralized smart contracts platform.</p>
           </div>
           <div className="footer-column">
-            <h4>Company</h4>
+            <h4>Decentralized Financial OS</h4>
             <ul>
-              <li><a href="">About Us</a></li>
+              <li><a href="">About GSCxBT SuperChain</a></li>
               <li><a href="">Brand Assets</a></li>
-              <li><a href="">Contact Us</a></li>
-              <li><a href="">Careers</a></li>
+              <li><a href="">Support & GSC20 Help Center</a></li>
+              <li><a href="">Careers & Developers</a></li>
             </ul>
           </div>
           <div className="footer-column">
-            <h4>Community</h4>
+            <h4>xBTA Community</h4>
             <ul>
               <li><a href="" target="_blank" rel="noopener noreferrer">API Documentation</a></li>
               <li><a href="">Knowledge Base</a></li>
@@ -139,10 +139,10 @@ const App = () => {
           <div className="footer-column">
             <h4>Products & Services</h4>
             <ul>
-              <li><a href="">Advertise</a></li>
+              <li><a href="">Advertise on GSC20</a></li>
               <li><a href="">Explorer-as-a-Service</a></li>
-              <li><a href="">API Plans</a></li>
-              <li><a href="">Support</a></li>
+              <li><a href="">GSCxBT API Plans</a></li>
+              <li><a href="">SuperChain Support</a></li>
             </ul>
           </div>
         </div>
